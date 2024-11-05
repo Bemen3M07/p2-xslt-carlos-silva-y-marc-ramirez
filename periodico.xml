@@ -1,1 +1,77 @@
-dsdssdssdsds
+<?xml version="1.0" encoding="UTF-8"?>
+<noticias>
+    <tema nombre="Política">
+        <noticia>
+            <titulo>Elecciones 2024: Resultados preliminares</titulo>
+            <fecha>2024-11-05</fecha>
+            <autor>Juan Pérez</autor>
+            <contenido>El candidato X lidera los resultados preliminares de las elecciones de este año...</contenido>
+        </noticia>
+        <noticia>
+            <titulo>DANA Valencia | Del bulo del aparcamiento de Bonaire a creaciones digitales presentadas como reales</titulo>
+            <fecha>2024-11-04</fecha>
+            <autor>VerificaRTVE</autor>
+            <contenido>La DANA más devastadora de las últimas décadas en España ha dejado al menos 215 muertos y decenas de desaparecidos...</contenido>
+        </noticia>
+    </tema>
+    
+    <tema nombre="Deportes">
+        <noticia>
+            <titulo>Flick: "Hay mucho trabajo duro por hacer para ganar la Champions"</titulo>
+            <fecha>2024-11-05</fecha>
+            <autor>M. CARMEN TORRES</autor>
+            <contenido>El técnico valora el cruce de la cuarta jornada del torneo continental en Belgrado</contenido>
+        </noticia>
+        <noticia>
+            <titulo>Atleta Z bate récord mundial</titulo>
+            <fecha>2024-11-01</fecha>
+            <autor>Ana Díaz</autor>
+            <contenido>El atleta Z rompió el récord mundial en los 100 metros con una marca impresionante...</contenido>
+        </noticia>
+    </tema>
+    
+    <tema nombre="Tecnología">
+        <noticia>
+            <titulo>Nuevo smartphone con inteligencia artificial</titulo>
+            <fecha>2024-09-15</fecha>
+            <autor>Laura Gómez</autor>
+            <contenido>La compañía X ha lanzado su nuevo smartphone equipado con la última tecnología en IA...</contenido>
+        </noticia>
+        <noticia>
+            <titulo>Desarrollan tecnología para energías renovables</titulo>
+            <fecha>2024-10-10</fecha>
+            <autor>Pedro Ruiz</autor>
+            <contenido>Investigadores han desarrollado una nueva tecnología para hacer más eficientes las energías renovables...</contenido>
+        </noticia>
+    </tema>
+
+    <tema nombre="Moda">
+        <noticia>
+            <titulo>El pelo de al tailor swift</titulo>
+            <fecha>2023-11-29</fecha>
+            <autor>Maria Gonzalez</autor>
+            <contenido>Al parecer, nuestra cantante famosa se desperto de gran manera que usa un champu a la hora de...</contenido>
+        </noticia>
+        <noticia>
+            <titulo>Pinta uñas solar</titulo>
+            <fecha>2024-10-12</fecha>
+            <autor>Sara Mara</autor>
+            <contenido>Se encontro una pintura nueva en donde las uñas pueden brillar dependiendo del clima en donde se encuentrta...</contenido>
+        </noticia>
+    </tema>
+
+    <tema nombre="Videojuegos">
+        <noticia>
+            <titulo>Uncharted 4 revive</titulo>
+            <fecha>2024-10-30</fecha>
+            <autor>Eduardo Macaroni</autor>
+            <contenido>En este dia se vio un fenomeno en el gran conocido y proclamado juego de acción e historia...</contenido>
+        </noticia>
+        <noticia>
+            <titulo>Cirujanos gamers</titulo>
+            <fecha>2022-08-02</fecha>
+            <autor>Pedro Ruiz</autor>
+            <contenido>Es posible que este juego nos ayude a todos incluyendo a aquellos medicos que quieren un poco de...</contenido>
+        </noticia>
+    </tema>
+</noticias>
