@@ -22,7 +22,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             body { font-family: Arial, sans-serif; background-color: #f0f0f0; color: #333; }
             .formulario { width: 300px; margin: 50px auto; padding: 20px; border: 1px solid #ccc; border-radius: 5px; background-color: rgb(120 113 108); }
             .formulario h2 { text-align: center; color: #0066cc; }
-            .formulario label { display: block; margin-top: 10px; }
+            .formulario label { display: block; margin-top: 10px; color: white; }
             .formulario input[type="text"], .formulario input[type="email"], .formulario input[type="password"] { width: 93%; padding: 8px; margin-top: 5px; }
             .formulario input[type="submit"] { width: 100%; padding: 10px; background-color: #0066cc; color: #fff; border: none; border-radius: 3px; cursor: pointer; margin-top: 20px; }
             .formulario input[type="submit"]:hover { background-color: #005bb5; }
