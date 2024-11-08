@@ -2,7 +2,7 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <xsl:output method="html" encoding="UTF-8" />
     
-    <!-- Plantilla principal -->
+   
     <xsl:template match="/noticias">
         <html>
             <head>
@@ -17,6 +17,17 @@
                     .autor { font-size: 0.9em; color: #555; }
                     .contenido { margin-top: 5px; }
                     footer { background-color: #333; color: #f4f4f9; text-align: center; padding: 10px; margin-top: 20px; font-size: 1.0em; }
+
+                    footer a {
+                        color: #f4f4f9;
+                        text-decoration: none;
+                        transition: color 0.3s, text-decoration 0.3s;
+                    }
+                    footer a:hover {
+                        color: #ffcc00; 
+                        text-decoration: underline; 
+                        font-weight: bold; 
+                    }
                 </style>
             </head>
             <body>
@@ -49,7 +60,7 @@
             <footer>
                 <p> 2024 Noticias Internacionales. Todos los derechos reservados.</p>
                 <p>Creado por Carlos Silva y Marc Ramirez.</p>
-                <p><a href="Formulario.php" style="color: #f4f4f9; text-decoration: none;">Registrate para más informacion</a></p>
+                <p><a href="Formulario.php">Regístrate aquí para más información</a></p>
             </footer>
         </html>
     </xsl:template>
