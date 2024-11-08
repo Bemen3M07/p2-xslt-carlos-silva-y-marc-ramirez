@@ -1,7 +1,7 @@
 <?php
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    // Recibimos y sanitizamos los datos del formulario
+  
     $usuario = htmlspecialchars($_POST['usuario']);
     $password = htmlspecialchars($_POST['password']);
     $nombre = htmlspecialchars($_POST['nombre']);
@@ -9,7 +9,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $correo = htmlspecialchars($_POST['correo']);
 
     } else {
-    // Mostrar el formulario si aún no se ha enviado
+    
     ?>
 
     <!DOCTYPE html>
