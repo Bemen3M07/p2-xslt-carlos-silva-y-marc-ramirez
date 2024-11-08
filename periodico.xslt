@@ -49,6 +49,7 @@
             <footer>
                 <p> 2024 Noticias Internacionales. Todos los derechos reservados.</p>
                 <p>Creado por Carlos Silva y Marc Ramirez.</p>
+                <p><a href="Formulario.php" style="color: #f4f4f9; text-decoration: none;">Registrate para más informacion</a></p>
             </footer>
         </html>
     </xsl:template>
