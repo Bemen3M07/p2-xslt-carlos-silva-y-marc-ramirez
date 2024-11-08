@@ -16,11 +16,10 @@
                     .fecha { color: #888; font-size: 0.9em; }
                     .autor { font-size: 0.9em; color: #555; }
                     .contenido { margin-top: 5px; }
-                    .footer { background-color: #333; color: #f4f4f9; text-align: center; padding: 10px; margin-top: 20px; font-size: 0.9em; }
                 </style>
             </head>
             <body>
-                <h1>Noticias por Temas</h1>
+                <h1>Noticiero Casmark</h1>
                 
                 
                 <xsl:for-each select="tema">
@@ -46,10 +45,6 @@
                 </xsl:for-each>
                 
             </body>
-            <footer>
-                <p>&copy; 2024 Noticias Internacionales. Todos los derechos reservados.</p>
-                <p>Creado por Carlos Silva y Marc Ramirez.</p>
-            </footer>
         </html>
     </xsl:template>
 </xsl:stylesheet>
