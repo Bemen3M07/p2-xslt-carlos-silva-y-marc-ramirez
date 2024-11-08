@@ -8,14 +8,15 @@
             <head>
                 <title>Casmark</title>
                 <style>
-                    body { font-family: Arial, sans-serif; background-color: #f4f4f9; color: #333; }
-                    h1 { color: #444; text-align: center; }
+                    body { font-family: Arial, sans-serif; background-color: rgb(120 113 108); color: #333;}
+                    h1 { color: white; text-align: center; }
                     h2 { background-color: #0066cc; color: white; padding: 5px; }
-                    .noticia { margin-bottom: 1em; padding: 10px; border: 1px solid #ccc; border-radius: 5px; background-color: #fff; }
+                    .noticia { margin-bottom: 1em; padding: 20px; border: 1px solid #ccc; border-radius: 5px; background-color: #fff; }
                     .titulo { font-weight: bold; font-size: 1.2em; }
                     .fecha { color: #888; font-size: 0.9em; }
                     .autor { font-size: 0.9em; color: #555; }
                     .contenido { margin-top: 5px; }
+                    .footer { background-color: #333; color: #f4f4f9; text-align: center; padding: 10px; margin-top: 20px; font-size: 0.9em; center; }
                 </style>
             </head>
             <body>
