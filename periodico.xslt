@@ -6,7 +6,7 @@
     <xsl:template match="/noticias">
         <html>
             <head>
-                <title>Noticias</title>
+                <title>Casmark</title>
                 <style>
                     body { font-family: Arial, sans-serif; background-color: #f4f4f9; color: #333; }
                     h1 { color: #444; text-align: center; }
@@ -45,6 +45,10 @@
                 </xsl:for-each>
                 
             </body>
+            <footer>
+                <p> 2024 Noticias Internacionales. Todos los derechos reservados.</p>
+                <p>Creado por Carlos Silva y Marc Ramirez.</p>
+            </footer>
         </html>
     </xsl:template>
 </xsl:stylesheet>
