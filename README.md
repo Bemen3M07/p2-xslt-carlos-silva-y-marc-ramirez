@@ -1,32 +1,24 @@
-Periodico.xslt ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+PeriodicoXSLT.
 
-Hoja de estilos XSLT para transformar un archivo XML de noticias en una página web HTML estilizada. El propósito es mostrar noticias organizadas por tema, cada una con un título, fecha, autor y contenido. La interfaz está diseñada para ser limpia, profesional y fácil de leer, utilizando colores oscuros y resaltados en blanco y azul.
+Este archivo XML contiene noticias organizadas por temas: Política, Deportes, Tecnología, Moda y Videojuegos. Cada noticia incluye título, fecha, autor y contenido breve.
 
-La estructura HTML que incluimos:
+Estructura:
+- <noticias>: Elemento raíz.
+- <tema nombre="...">: Categorías con noticias.
+- <noticia>: Elemento individual con detalles.
 
-Cabecera (<head>): Contiene el título de la página (Casmark) y estilos CSS para la presentación.
-Cuerpo (<body>): Organizado de la siguiente forma:
-Título principal: Un título centrado que dice "Noticiero Casmark".
-Secciones por tema: Cada tema está representado con un encabezado (<h2>) que toma el atributo nombre del elemento <tema>.
-Noticias: Cada noticia incluye:
-Título (<div class="titulo">)
-Fecha (<div class="fecha">)
-Autor (<div class="autor">)
-Contenido (<div class="contenido">)
-Pie de página (<footer>): Incluye un mensaje de derechos reservados, los nombres de los creadores y un enlace a un formulario de registro para obtener más información.
+Uso: Transformado en HTML con periodico.xslt para visualización en la web.
 
-En tema css simplemente decoración y restructura visual
+PeriodicoXML.
 
-PeriodicoXML -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Este archivo XSL transforma un archivo XML de noticias en un documento HTML con estilo básico.
 
-Este archivo XML almacena un conjunto de noticias organizadas por temas. Cada noticia incluye información como título, fecha, autor y contenido. El formato visual que usamos es ed de la hoja de estilos periodico.xslt, que convierte las noticias en un formato web amigable y visualmente atractivo.
+Estructura:
+- La plantilla principal (<xsl:template match="/noticias">) genera la estructura HTML.
+- Título principal "Noticiero Casmark" y secciones para cada tema de noticias.
+- Cada noticia contiene título, fecha, autor y contenido.
 
-El archivo está estructurado de la siguiente forma:
-
-Raíz (<noticias>): Contiene todos los temas y noticias.
-Temas (<tema>): Cada tema representa una categoría de noticias, como Política, Deportes, Tecnología, Moda y Videojuegos. Cada tema tiene un atributo nombre que identifica la categoría.
-Noticias (<noticia>): Dentro de cada tema, se listan noticias individuales. Cada noticia incluye los siguientes elementos:
-<titulo>: El título de la noticia.
-<fecha>: La fecha de publicación de la noticia.
-<autor>: El autor de la noticia.
-<contenido>: El contenido o descripción de la noticia.
+Estilo:
+- HTML estructurado con elementos como h1, h2 y div para organizar los temas y noticias.
+- Diseño con CSS en línea: fondo gris oscuro, encabezados de color, y tarjetas blancas para cada noticia.
+- Pie de página con derechos reservados y un enlace para registrarse.
