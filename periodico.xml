@@ -3,10 +3,10 @@
 <noticias>
     <tema nombre="Política">
         <noticia>
-            <titulo>Elecciones 2024: Resultados preliminares</titulo>
-            <fecha>2024-11-05</fecha>
-            <autor>Juan Pérez</autor>
-            <contenido>El candidato X lidera los resultados preliminares de las elecciones de este año...</contenido>
+            <titulo>Elecciones en Estados Unidos, resumen del 6 de noviembre</titulo>
+            <fecha>2024-11-07</fecha>
+            <autor>EL PAÍS</autor>
+            <contenido>El presidente electo, Donald Trump, amplía su ventaja sobre la candidata demócrata.</contenido>
         </noticia>
         <noticia>
             <titulo>DANA Valencia | Del bulo del aparcamiento de Bonaire a creaciones digitales presentadas como reales</titulo>
@@ -21,34 +21,34 @@
             <titulo>Flick: "Hay mucho trabajo duro por hacer para ganar la Champions"</titulo>
             <fecha>2024-11-05</fecha>
             <autor>M. CARMEN TORRES</autor>
-            <contenido>El técnico valora el cruce de la cuarta jornada del torneo continental en Belgrado</contenido>
+            <contenido>El técnico valora el cruce de la cuarta jornada del torneo continental en Belgrado.</contenido>
         </noticia>
         <noticia>
-            <titulo>Atleta Z bate récord mundial</titulo>
-            <fecha>2024-11-01</fecha>
-            <autor>Ana Díaz</autor>
-            <contenido>El atleta Z rompió el récord mundial en los 100 metros con una marca impresionante...</contenido>
+            <titulo>Francia se aísla del ruido en torno a Mbappé</titulo>
+            <fecha>2024-11-07</fecha>
+            <autor>Daniel Verdú</autor>
+            <contenido>El seleccionador, Didier Deschamps, deja fuera de la convocatoria a la estrella del Real Madrid...</contenido>
         </noticia>
     </tema>
     
     <tema nombre="Tecnología">
         <noticia>
-            <titulo>Nuevo smartphone con inteligencia artificial</titulo>
-            <fecha>2024-09-15</fecha>
-            <autor>Laura Gómez</autor>
-            <contenido>La compañía X ha lanzado su nuevo smartphone equipado con la última tecnología en IA...</contenido>
+            <titulo>Así funciona el timo del cambio de router que va por los clientes de Movistar: todo comienza con una llamada</titulo>
+            <fecha>2024-11-08</fecha>
+            <autor>Miguel Terán Haughey</autor>
+            <contenido>En internet, y en general con la tecnología, no podemos fiarnos de todo lo que vemos o escuchamos, y ...</contenido>
         </noticia>
         <noticia>
-            <titulo>Desarrollan tecnología para energías renovables</titulo>
-            <fecha>2024-10-10</fecha>
-            <autor>Pedro Ruiz</autor>
-            <contenido>Investigadores han desarrollado una nueva tecnología para hacer más eficientes las energías renovables...</contenido>
+            <titulo>Los Premios 3 Diamantes reconocen los proyectos de climatización más innovadores y eficientes en su décimo aniversario</titulo>
+            <fecha>2024-11-08</fecha>
+            <autor>EcoBrands</autor>
+            <contenido>s Premios 3 Diamantes reconocen a los profesionales del sector de la climatización como protagonistas de...</contenido>
         </noticia>
     </tema>
 
     <tema nombre="Moda">
         <noticia>
-            <titulo>El pelo de al tailor swift</titulo>
+            <titulo>El pelo de tailor swift</titulo>
             <fecha>2023-11-29</fecha>
             <autor>Maria Gonzalez</autor>
             <contenido>Al parecer, nuestra cantante famosa se desperto de gran manera que usa un champu a la hora de...</contenido>
