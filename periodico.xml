@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="periodico.xslt"?>
 <noticias>
+    <!-- Definición de la primera categoría de noticias: Política -->
     <tema nombre="Política">
         <noticia>
             <titulo>Elecciones en Estados Unidos, resumen del 6 de noviembre</titulo>
@@ -15,7 +16,8 @@
             <contenido>La DANA más devastadora de las últimas décadas en España ha dejado al menos 215 muertos y decenas de desaparecidos...</contenido>
         </noticia>
     </tema>
-    
+
+    <!-- Categoría Deportes con dos noticias relevantes -->
     <tema nombre="Deportes">
         <noticia>
             <titulo>Flick: "Hay mucho trabajo duro por hacer para ganar la Champions"</titulo>
@@ -30,7 +32,8 @@
             <contenido>El seleccionador, Didier Deschamps, deja fuera de la convocatoria a la estrella del Real Madrid...</contenido>
         </noticia>
     </tema>
-    
+
+    <!-- Categoría Tecnología, destacando noticias de seguridad y premios en innovación -->
     <tema nombre="Tecnología">
         <noticia>
             <titulo>Así funciona el timo del cambio de router que va por los clientes de Movistar: todo comienza con una llamada</titulo>
@@ -46,6 +49,7 @@
         </noticia>
     </tema>
 
+    <!-- Categoría Moda, destacando temas de tendencias recientes -->
     <tema nombre="Moda">
         <noticia>
             <titulo>El pelo de tailor swift</titulo>
@@ -61,6 +65,7 @@
         </noticia>
     </tema>
 
+     <!-- Categoría Videojuegos, noticias sobre lanzamientos y uso de videojuegos en medicina -->
     <tema nombre="Videojuegos">
         <noticia>
             <titulo>Uncharted 4 revive</titulo>
