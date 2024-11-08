@@ -1,7 +1,7 @@
 <?php
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    // Recibimos y sanitizamos los datos del formulario
+    
     $usuario = htmlspecialchars($_POST['usuario']);
     $password = htmlspecialchars($_POST['password']);
     $nombre = htmlspecialchars($_POST['nombre']);
@@ -9,7 +9,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $correo = htmlspecialchars($_POST['correo']);
 
     } else {
-    // Mostrar el formulario si aún no se ha enviado
+    
     ?>
 
     <!DOCTYPE html>
@@ -20,7 +20,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <title>Casmark</title>
         <style>
             body { font-family: Arial, sans-serif; background-color: #f0f0f0; color: #333; }
-            .formulario { width: 300px; margin: 50px auto; padding: 20px; border: 1px solid #ccc; border-radius: 5px; background-color: #fff; }
+            .formulario { width: 300px; margin: 50px auto; padding: 20px; border: 1px solid #ccc; border-radius: 5px; background-color: rgb(120 113 108); }
             .formulario h2 { text-align: center; color: #0066cc; }
             .formulario label { display: block; margin-top: 10px; }
             .formulario input[type="text"], .formulario input[type="email"], .formulario input[type="password"] { width: 93%; padding: 8px; margin-top: 5px; }
